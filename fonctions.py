@@ -23,9 +23,6 @@ def game(word=getWord()):
 
 	global lives
 
-	# for test
-	print(word)
-
 	while lives > 0 or hiddenWord != word:
 
 		if lives <= maxLives:
