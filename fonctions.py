@@ -18,11 +18,15 @@ def getWord():
 	""" 
 	return randomWord(listWords)
 
+def showHiddenWord():
+	pass
+
 
 def game(word=getWord()):
 
 	global lives
 
+	hiddenWord = ""
 	while lives > 0 or hiddenWord != word:
 
 		if lives <= maxLives:
@@ -35,7 +39,7 @@ def game(word=getWord()):
 				hiddenWord += word[i]
 			else:
 				hiddenWord += "*"
-		print("{}".format(hiddenWord))
+		print(hiddenWord)
 
 
 		# Check if he won or if he lost
@@ -60,6 +64,7 @@ def game(word=getWord()):
 				system('cls')
 				print(getDraw())
 				letter = ''
+				print(hiddenWord)
 				continue
 			# If yes	
 			else:

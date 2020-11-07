@@ -1,5 +1,3 @@
-
-
 # _____VAR_____
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -9,9 +7,6 @@ with open('mots.txt', 'r') as wordFile:
         if mot[-1] == '\n':
             mot = mot[:-1]
         listWords.append(mot)
-
-
-
 
 trashLetter =  []
 
@@ -70,7 +65,7 @@ draws = [
        |       |
        |       O
        |      -|-
-       |      |
+       |      /
        |
     ==============
     """,
@@ -79,7 +74,7 @@ draws = [
        |       |
        |       O
        |      -|-
-       |      | |
+       |      / \\
        |
     ==============
     """
