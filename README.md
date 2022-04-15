@@ -1,13 +1,11 @@
 # Hangman #
 This project is basically the **Hangman** game code in python !
 
-## How to run ##
-Just run the file _pendu.py_ and you will be able to play the game !
+All the words use in the game are french words, you can change words easily in the file _words.txt_
 
-## More about ##
-- This project was at the beginning, only a exercice that I made in OpenClassroom, but I thought it was interesting to upgrade it and make something pretty cool.
-- The game is in french, so the 'menu' and words are in french but the code is written with english comment normaly.
-- You can change words easily in the file _words.txt_
+The game keep your best score and have a local leaderboard
 
-- - - -
+## How to play ##
+Run the file _pendu.py_ and enjoy !
 
+![Hangman_img](https://user-images.githubusercontent.com/59777055/163549954-0699ca87-a8b4-4e26-b0ec-350853a5cd80.PNG)
